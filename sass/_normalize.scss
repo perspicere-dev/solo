@@ -347,3 +347,9 @@
   [hidden] {
     display: none;
   }
+
+  .container {
+      @at-root #{&}__elemnt {
+
+      }
+  }

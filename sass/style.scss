@@ -3,10 +3,11 @@
 @import "normalize";
 @import "layout";
 /* Components */
-// @import "components/form_field";
+
 
 // /* Sections */
-// @import "section/registration_form";
+@import "../sass/sections/sidebar.scss";
+@import "../sass/sections/topbar.scss";
 
 // /* Pages / Views */
 // @import "pages/registration";

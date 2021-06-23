@@ -1,0 +1,11 @@
+.sidebar {
+  position: fixed;
+  background-color: indianred;
+  height: 200px;
+}
+
+.sidebar__links {
+  color: greenyellow;
+}
+
+/*# sourceMappingURL=sidebar.css.map */
