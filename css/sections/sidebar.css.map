@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "sidebar.css",
-	"sources": [
-		"../../sass/sections/sidebar.scss"
-	],
-	"names": [],
-	"mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,gBAAgB,EAAE,GAAG;EACrB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,UAAU;CAIpB;;AACD,AAAA,eAAe,CAAC;EACZ,KAAK,EAAE,WAAW;CACrB"
-}
