@@ -3,11 +3,43 @@
 @import "normalize";
 @import "layout";
 /* Components */
+@import "../sass/components/sidebar.scss";
+@import "../sass/components/main-page.scss";
+@import "../sass/components/topbar.scss";
 
+// GLOBAL
+.container {
+    font-family: $main-font;
+}
 
-// /* Sections */
-@import "../sass/sections/sidebar.scss";
-@import "../sass/sections/main-page.scss";
+.elem {
+    border-bottom: 1.5px solid $color-light-grey;
+}
+
+.btn {
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    background: $color-orabnge-dark;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  .btn:hover {
+    background: $color-orabnge-light;
+    text-decoration: none;
+  }
+
+  .icon {
+    width: 15px;
+    margin-right: 10px;
+}
+
 
 // /* Pages / Views */
 // @import "pages/registration";

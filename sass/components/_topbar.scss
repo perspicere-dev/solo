@@ -1,0 +1,43 @@
+.topbar {
+    // background-color: $topbar-color;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid $color-dark;
+    align-items: center;
+    width: 66%;
+    z-index: 9999;
+    background-color: $color-light;
+    
+}
+
+.topbar-list  {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: 0;
+
+  
+}
+.topbar-list 
+.topbar-list-elem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid $color-dark;
+    padding: 0 10px;
+    
+
+    .icon-arrow-down {
+        width: 15px;
+    }
+    
+    .topbar-link {
+        padding: 0 10px;
+
+        .icon {
+            padding: 0 2px;
+            margin: auto;
+        }
+    }
+}
