@@ -6,6 +6,7 @@
 @import "../sass/components/sidebar.scss";
 @import "../sass/components/main-page.scss";
 @import "../sass/components/topbar.scss";
+@import "../sass/components/media.scss";
 
 // GLOBAL
 .container {
@@ -36,9 +37,15 @@
   }
 
   .icon {
-    width: 15px;
-    margin-right: 10px;
+    width: 20px;
+    margin:0 15px;
 }
+
+.container {
+    margin: 0;
+}
+
+
 
 
 // /* Pages / Views */
